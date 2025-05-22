@@ -1,0 +1,118 @@
+{
+  "person_id": "0001",
+  "confidence": 0.3059442341327667,
+  "path": [
+    {
+      "camera": "c3s2",
+      "frame": "0901_c3s2_110903_04.jpg",
+      "frame_path": "data/Market1501/cams/c3s2/0901_c3s2_110903_04.jpg",
+      "enter_ts": 4,
+      "exit_ts": 4,
+      "bbox": [
+        0,
+        0,
+        63,
+        126
+      ],
+      "snapshot": "/Users/sankarsivam/Desktop/Cognida/snapshots/0001_c3s2_0901_c3s2_110903_04.jpg"
+    },
+    {
+      "camera": "c1s1",
+      "frame": "0193_c1s1_060281_05.jpg",
+      "frame_path": "data/Market1501/cams/c1s1/0193_c1s1_060281_05.jpg",
+      "enter_ts": 5,
+      "exit_ts": 5,
+      "bbox": [
+        6,
+        0,
+        64,
+        123
+      ],
+      "snapshot": "/Users/sankarsivam/Desktop/Cognida/snapshots/0001_c1s1_0193_c1s1_060281_05.jpg"
+    },
+    {
+      "camera": "c1s6",
+      "frame": "1479_c1s6_032296_06.jpg",
+      "frame_path": "data/Market1501/cams/c1s6/1479_c1s6_032296_06.jpg",
+      "enter_ts": 6,
+      "exit_ts": 6,
+      "bbox": [
+        12,
+        11,
+        63,
+        128
+      ],
+      "snapshot": "/Users/sankarsivam/Desktop/Cognida/snapshots/0001_c1s6_1479_c1s6_032296_06.jpg"
+    },
+    {
+      "camera": "c1s4",
+      "frame": "0990_c1s4_073261_07.jpg",
+      "frame_path": "data/Market1501/cams/c1s4/0990_c1s4_073261_07.jpg",
+      "enter_ts": 7,
+      "exit_ts": 7,
+      "bbox": [
+        0,
+        1,
+        64,
+        127
+      ],
+      "snapshot": "/Users/sankarsivam/Desktop/Cognida/snapshots/0001_c1s4_0990_c1s4_073261_07.jpg"
+    },
+    {
+      "camera": "c1s1",
+      "frame": "0193_c1s1_060331_08.jpg",
+      "frame_path": "data/Market1501/cams/c1s1/0193_c1s1_060331_08.jpg",
+      "enter_ts": 8,
+      "exit_ts": 8,
+      "bbox": [
+        0,
+        0,
+        55,
+        127
+      ],
+      "snapshot": "/Users/sankarsivam/Desktop/Cognida/snapshots/0001_c1s1_0193_c1s1_060331_08.jpg"
+    },
+    {
+      "camera": "c1s5",
+      "frame": "1107_c1s5_015261_09.jpg",
+      "frame_path": "data/Market1501/cams/c1s5/1107_c1s5_015261_09.jpg",
+      "enter_ts": 9,
+      "exit_ts": 9,
+      "bbox": [
+        12,
+        36,
+        57,
+        124
+      ],
+      "snapshot": "/Users/sankarsivam/Desktop/Cognida/snapshots/0001_c1s5_1107_c1s5_015261_09.jpg"
+    },
+    {
+      "camera": "c5s1",
+      "frame": "0409_c5s1_098323_10.jpg",
+      "frame_path": "data/Market1501/cams/c5s1/0409_c5s1_098323_10.jpg",
+      "enter_ts": 10,
+      "exit_ts": 10,
+      "bbox": [
+        5,
+        35,
+        50,
+        123
+      ],
+      "snapshot": "/Users/sankarsivam/Desktop/Cognida/snapshots/0001_c5s1_0409_c5s1_098323_10.jpg"
+    },
+    {
+      "camera": "c5s2",
+      "frame": "0901_c5s2_125774_11.jpg",
+      "frame_path": "data/Market1501/cams/c5s2/0901_c5s2_125774_11.jpg",
+      "enter_ts": 11,
+      "exit_ts": 11,
+      "bbox": [
+        5,
+        2,
+        64,
+        125
+      ],
+      "snapshot": "/Users/sankarsivam/Desktop/Cognida/snapshots/0001_c5s2_0901_c5s2_125774_11.jpg"
+    }
+  ]
+}

@@ -1,0 +1,11 @@
+torch
+torchvision
+git+https://github.com/openai/CLIP.git
+ultralytics
+flask
+faiss-cpu
+opencv-python
+Pillow
+numpy
+torchreid
+matplotlib

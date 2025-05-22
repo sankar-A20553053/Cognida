@@ -1,0 +1,27 @@
+import matplotlib.pyplot as plt
+from matplotlib.animation import FuncAnimation
+from config import CAMERA_COORDS
+from pipeline import PersonSearchPipeline
+
+def animate(result):
+    coords = [CAMERA_COORDS[s["camera"]] for s in result["path"]]
+    fig, ax = plt.subplots()
+    xs, ys = zip(*coords)
+    ax.set_xlim(min(xs)-1, max(xs)+1)
+    ax.set_ylim(min(ys)-1, max(ys)+1)
+    point, = ax.plot([], [], 'o', markersize=10)
+
+    def update(i):
+        x, y = coords[i]
+        point.set_data(x, y)
+        return point,
+
+    ani = FuncAnimation(fig, update, frames=len(coords),
+                        interval=1000, blit=True, repeat=False)
+    plt.show()
+
+if __name__ == "__main__":
+    ps = PersonSearchPipeline()
+    res = ps.search_and_track("a person wearing a blue jacket and carrying a white handbag")
+    ps.save_snapshots(res)
+    animate(res)
