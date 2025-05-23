@@ -113,3 +113,6 @@ python visualize.py
 # Shows animated/static plot of movement path
 
 Feel free to customize thresholds in config.py or swap in your own dataset under data/. For issues or enhancements, open a GitHub issue or PR.
+
+Regarding the demo video:
+Since I’m using the Market‑1501 dataset, I couldn’t produce a live 2‑minute video. Instead, I’ve included the resulting snapshot crops from the dataset. Please take a look.
